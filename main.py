@@ -45,22 +45,21 @@ PROFILE_IDS = [p.strip() for p in os.getenv("PROFILE", "").split(",") if p.strip
 
 # URLs of the JSON block-lists we want to import
 FOLDER_URLS = [
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/meta-tracker-allow-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/microsoft-allow-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-amazon-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-apple-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-huawei-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-lgwebos-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-microsoft-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-oppo-realme-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-roku-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-samsung-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-tiktok-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-vivo-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-xiaomi-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/referral-allow-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-idns-folder.json",
-  "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-tlds-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/microsoft-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-amazon-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-apple-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-huawei-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-lgwebos-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-microsoft-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-oppo-realme-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-samsung-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-tiktok-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-vivo-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-xiaomi-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-idns-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-allow-folder.json",
 ]
 
 BATCH_SIZE = 500
