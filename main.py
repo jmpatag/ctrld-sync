@@ -61,6 +61,7 @@ FOLDER_URLS = [
   "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/referral-allow-folder.json",
   "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-idns-folder.json",
   "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-tlds-allow-folder.json",
+  # ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 ]
 
 BATCH_SIZE = 500
